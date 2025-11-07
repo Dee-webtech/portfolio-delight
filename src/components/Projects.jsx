@@ -79,27 +79,26 @@ export default function Projects() {
     },
     {
   id: 4,
+  title: "Business WordPress Site",
+  description: "Elementor + Crocoblock-built site with booking form and custom post types.",
+  image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=1200&q=80",
+  technologies: ["WordPress", "Elementor"],
+  category: "wordpress",
+  liveUrl: "",
+  githubUrl: "",
+  featured: false,
+},
+{
+  id: 5,
   title: "GoWithFund Website",
   category: "wordpress",
   description:
     "A fundraising platform where I volunteered as a frontend WordPress developer. I helped refine the site's Elementor-based layouts, contributed to its transition to the Greenshift plugin for more advanced features, improved mobile responsiveness, and optimized UI consistency across key pages.",
   technologies: ["WordPress", "Elementor", "Greenshift"],
   liveUrl: "https://gowithfund.org",
-  image: "/src/assets/images/Gowithfunds.png"
-   }
-  {
-      id: 5,
-      title: "Business WordPress Site",
-      description: "Elementor + Crocoblock-built site with booking form and custom post types.",
-      image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=1200&q=80",
-      technologies: ["WordPress", "Elementor"],
-      category: "wordpress",
-      liveUrl: "",
-      githubUrl: "",
-      featured: false,
-    },
-  ];
-
+  image: "/src/assets/images/Gowithfunds.png",
+}
+];
   const filters = ["all", "frontend", "wordpress"];
   const active = filter === "all" ? projects : projects.filter((p) => p.category === filter);
 
