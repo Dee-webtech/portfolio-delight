@@ -22,9 +22,7 @@ export default function Hero() {
           </h1>
 
           <p className="text-lg md:text-xl text-gray-200 max-w-2xl animate-fadeIn">
-            Frontend Developer (ALX Student). I build modern, responsive web
-            apps using React and deliver client-ready WordPress solutions with
-            Elementor and Crocoblock.
+            Frontend Developer |ALX Graduate. I build modern, responsive web apps using React and deliver client-ready WordPress solutions with Elementor and Crocoblock.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
