@@ -32,10 +32,10 @@ const ProjectCard = ({ p }) => (
     <a href={p.githubUrl} 
     target="_blank" 
     rel="noopener noreferrer" 
-    className="flex-1 text-center border-2 border-gray-200 py-2 rounded-lg inline-flex items-center justify-center gap-2 text-gray-700"> 
-    <Github className="w-4 h-4" /> Code 
-  </a> 
-  )}
+    className="flex-1 text-center border-2 border-gray-200 py-2 rounded-lg inline-flex items-center justify-center gap-2 text-gray-700">
+    <Github className="w-4 h-4" /> <Code className="w-4 h-4" /> Code
+  </a>
+)}
 </div>
 
     </div>
