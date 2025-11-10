@@ -95,7 +95,7 @@ export default function Projects() {
     title: "GoWithFund Website",
     description:
       "A fundraising platform where I volunteered as a frontend WordPress developer. I helped refine the site's Elementor-based layouts, contributed to its transition to the Greenshift plugin for more advanced features, improved mobile responsiveness, and optimized UI consistency across key pages.",
-    image: "/gowithfund.png",
+    image: "/Gowithfund.png",
     technologies: ["WordPress", "Elementor", "Greenshift"],
     category: "wordpress",
     liveUrl: "https://gowithfund.org",
