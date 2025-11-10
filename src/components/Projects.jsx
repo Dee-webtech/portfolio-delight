@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { ExternalLink, Github, Code } from "lucide-react";
+import { ExternalLink, GitHubIcon, Code } from "lucide-react";
 
 const ProjectCard = ({ p }) => (
   <article className="bg-white rounded-2xl overflow-hidden shadow-soft-lg hover:shadow-2xl transition transform hover:-translate-y-1">
@@ -28,11 +28,13 @@ const ProjectCard = ({ p }) => (
     </span>
   )}
 
-  {p.githubUrl && (
-    <a href={p.githubUrl} target="_blank" rel="noopener noreferrer"
-       className="flex-1 text-center border-2 border-gray-200 py-2 rounded-lg inline-flex items-center justify-center gap-2 text-gray-700">
-      <Github className="w-4 h-4" /> Code
-    </a>
+  {p.githubUrl && ( 
+    <a href={p.githubUrl} 
+    target="_blank" 
+    rel="noopener noreferrer" 
+    className="flex-1 text-center border-2 border-gray-200 py-2 rounded-lg inline-flex items-center justify-center gap-2 text-gray-700"> 
+    <GitHubIcon className="w-4 h-4" /> Code 
+  </a> 
   )}
 </div>
 

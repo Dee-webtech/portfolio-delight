@@ -88,11 +88,14 @@ export default function Navbar() {
               </button>
             ))}
             <a
-              href="https://docs.google.com/document/d/1T7VjiZBMjlTPMHc2kbkHTWWhiyiqko2TJIJpGyEZWOs/edit?usp=sharing"
-              className="mt-2 inline-block px-4 py-2 bg-accent text-white rounded-md text-center"
-            >
-              Resume
-            </a>
+            href="/Delight_Chinecherem_FrontendDeveloper.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mt-2 inline-block px-4 py-2 bg-accent text-white rounded-md text-center"
+          >
+             Resume
+          </a>
+
           </div>
         </div>
       )}
