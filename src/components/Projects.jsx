@@ -58,15 +58,15 @@ export default function Projects() {
       githubUrl: "https://github.com/yourusername/recipe-finder",
       featured: true,
     },
-    { id: 2, 
-      title: "Fitness Tracker", 
-      description: "Interactive fitness tracking web app built with React, TypeScript, and Tailwind CSS.", 
-      image: "https://images.unsplash.com/photo-1598970434795-0c54fe7c0642?w=1200&q=80", 
-      technologies: ["React", "TypeScript", "Tailwind CSS"], 
-      category: "frontend", 
-      liveUrl: "https://fitness-tracker-tsx-reactjs.vercel.app/", 
-      githubUrl: "https://github.com/dee-webtech/Fitness-tracker-tsx-reactjs", 
-      featured: true, 
+    { id: 2,
+    title: "Fitness Tracker",
+    description: "Interactive fitness tracking web app built with React, TypeScript, and Tailwind CSS.",
+    image: "/fitness-tracker.png",
+    technologies: ["React", "TypeScript", "Tailwind CSS"],
+    category: "frontend",
+    liveUrl: "https://fitness-tracker-tsx-reactjs.vercel.app/",
+    githubUrl: "https://github.com/dee-webtech/Fitness-tracker-tsx-reactjs",
+    featured: true,
     },
     {
       id: 3,
@@ -92,13 +92,15 @@ export default function Projects() {
 },
 {
   id: 5,
-  title: "GoWithFund Website",
-  category: "wordpress",
-  description:
-    "A fundraising platform where I volunteered as a frontend WordPress developer. I helped refine the site's Elementor-based layouts, contributed to its transition to the Greenshift plugin for more advanced features, improved mobile responsiveness, and optimized UI consistency across key pages.",
-  technologies: ["WordPress", "Elementor", "Greenshift"],
-  liveUrl: "https://gowithfund.org",
-  image: "/src/assets/images/Gowithfunds.png",
+    title: "GoWithFund Website",
+    description:
+      "A fundraising platform where I volunteered as a frontend WordPress developer. I helped refine the site's Elementor-based layouts, contributed to its transition to the Greenshift plugin for more advanced features, improved mobile responsiveness, and optimized UI consistency across key pages.",
+    image: "/gowithfund.png",
+    technologies: ["WordPress", "Elementor", "Greenshift"],
+    category: "wordpress",
+    liveUrl: "https://gowithfund.org",
+    githubUrl: "",
+    featured: false,
 }
 ];
   const filters = ["all", "frontend", "wordpress"];
