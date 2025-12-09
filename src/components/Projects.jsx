@@ -101,7 +101,19 @@ export default function Projects() {
     liveUrl: "https://gowithfund.org",
     githubUrl: "",
     featured: false,
-}
+},
+{
+  id: 6,
+  title: "Internflare Website",
+  description: "Full website built as an intern for Internflare with modern layout and responsive design.",
+  image: "/internflare.png",
+  technologies: ["WordPress", "Elementor", "Blocksy Theme"],
+  category: "wordpress",
+  liveUrl: "https://deewebtech.kesug.com/",
+  githubUrl: "",
+  featured: false,
+},
+
 ];
   const filters = ["all", "frontend", "wordpress"];
   const active = filter === "all" ? projects : projects.filter((p) => p.category === filter);
