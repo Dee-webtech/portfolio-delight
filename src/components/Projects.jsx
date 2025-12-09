@@ -68,7 +68,7 @@ export default function Projects() {
     githubUrl: "https://github.com/dee-webtech/Fitness-tracker-tsx-reactjs",
     featured: true,
     },
-    {
+    /*{
       id: 3,
       title: "TechCon Landing Page",
       description: "Static responsive landing page built with semantic HTML & Tailwind.",
@@ -78,10 +78,10 @@ export default function Projects() {
       liveUrl: "https://tech-con-html-eight.vercel.app/",
       githubUrl: "https://github.com/dee-webtech/TechCon_HTML",
       featured: false,
-    },
+    }, */
     {
   id: 4,
-  title: "Business WordPress Site",
+  title: "Ecommerce Site",
   description: "Elementor + Crocoblock-built site with booking form and custom post types.",
   image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=1200&q=80",
   technologies: ["WordPress", "Elementor"],
