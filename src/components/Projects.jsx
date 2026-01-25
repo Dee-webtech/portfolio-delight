@@ -79,7 +79,30 @@ export default function Projects() {
       githubUrl: "https://github.com/dee-webtech/TechCon_HTML",
       featured: false,
     }, */
+
     {
+  id: 4,
+  title: "Ecommerce Site",
+  description: "The site is now live and accessible. Additional updates, refinements, and new features will be rolled out gradually as development continues.",
+  image: "/e-commerce.png",
+  technologies: ["WordPress", "Elementor"],
+  category: "wordpress",
+  liveUrl: "https://blingjewels.wuaze.com",
+  githubUrl: "",
+  featured: false,
+},
+{
+  id: 5,
+  title: "Nigerian Aid Organisation",
+  description: "Sample Nigerian Aid Group website, well-structured and designed for easy navigation, visual clarity, and user engagement.",
+  image: "/xarrie_site",
+  technologies: ["WordPress", "Elementor"],
+  category: "wordpress",
+  liveUrl: "https://nigeriaaidgroup.com.ng/",
+  githubUrl: "",
+  featured: false,
+},
+   /* {
   id: 4,
   title: "Ecommerce Site",
   description: "Elementor + Crocoblock-built site with booking form and custom post types.",
@@ -89,9 +112,9 @@ export default function Projects() {
   liveUrl: "",
   githubUrl: "",
   featured: false,
-},
+}, */
 {
-  id: 5,
+  id: 6,
     title: "GoWithFund Website",
     description:
       "A fundraising platform where I volunteered as a frontend WordPress developer. I helped refine the site's Elementor-based layouts, contributed to its transition to the Greenshift plugin for more advanced features, improved mobile responsiveness, and optimized UI consistency across key pages.",
@@ -103,7 +126,7 @@ export default function Projects() {
     featured: false,
 },
 {
-  id: 6,
+  id: 7,
   title: "Internflare Website",
   description: "Full website built as an intern for Internflare with modern layout and responsive design.",
   image: "/internflare.png",
