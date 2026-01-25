@@ -95,7 +95,7 @@ export default function Projects() {
   id: 5,
   title: "Nigerian Aid Organisation",
   description: "Sample Nigerian Aid Group website, well-structured and designed for easy navigation, visual clarity, and user engagement.",
-  image: "/xarrie_site",
+  image: "/xarrie-site.png",
   technologies: ["WordPress", "Elementor"],
   category: "wordpress",
   liveUrl: "https://nigeriaaidgroup.com.ng/",
