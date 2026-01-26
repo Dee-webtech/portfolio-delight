@@ -12,7 +12,7 @@ export default function Hero() {
   return (
     <section
       id="home"
-      className="relative min-h-screen flex items-center pt-20 bg-gradient-to-br from-slate-900 via-indigo-900 to-purple-900 text-white"
+      className="relative min-h-[100svh] flex items-center overflow-hidden bg-gradient-to-br from-slate-900 via-indigo-900 to-purple-900 text-white"
     >
       <div className="relative z-10 max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
         {/* Left: text */}
